@@ -1,0 +1,33 @@
+/* Редактор блоков: оформление предпросмотра блоков «Вега: …». */
+
+.vega-editor-preview {
+	position: relative;
+	outline: 1px dashed rgba(224, 138, 45, 0.5);
+	outline-offset: 6px;
+}
+
+.vega-editor-preview__label {
+	display: inline-block;
+	margin-bottom: 0.75rem;
+	padding: 0.15rem 0.5rem;
+	background: #e08a2d;
+	color: #121211;
+	font-family: "Sofia Sans Condensed", sans-serif;
+	font-size: 12px;
+	font-weight: 600;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	border-radius: 2px;
+}
+
+.vega-editor-preview__empty {
+	padding: 1rem;
+	border: 1px dashed #696962;
+	color: #d6d6d1;
+}
+
+/* В редакторе секции «на всю ширину» получают те же отступы, что на сайте. */
+.editor-styles-wrapper .wp-block-group.alignfull {
+	padding-left: 32px;
+	padding-right: 32px;
+}

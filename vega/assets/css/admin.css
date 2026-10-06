@@ -1,0 +1,142 @@
+/* Админка темы «Вега»: поля записей и страница настроек. */
+
+.vega-fields__intro {
+	margin: 0.5rem 0 1rem;
+	padding: 0.75rem 1rem;
+	background: #fff8ef;
+	border-left: 3px solid #e08a2d;
+}
+
+.vega-field {
+	margin: 0 0 1.25rem;
+}
+
+.vega-field label strong,
+.vega-field__label {
+	display: block;
+	margin-bottom: 0.35rem;
+}
+
+.vega-field--checkbox label strong {
+	display: inline;
+}
+
+.vega-field input[type="date"],
+.vega-field input[type="time"],
+.vega-field input[type="number"],
+.vega-field select {
+	min-width: 14rem;
+}
+
+.vega-schedule-field th {
+	text-align: left;
+	font-weight: 600;
+	padding: 0 0.5rem 0.25rem 0;
+}
+
+.vega-schedule-field td {
+	padding: 0 0.5rem 0.4rem 0;
+}
+
+.vega-people-field {
+	margin: 0;
+	display: grid;
+	gap: 0.4rem;
+}
+
+.vega-people-field li {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 0.5rem 1rem;
+	margin: 0;
+}
+
+.vega-people-field label {
+	min-width: 16rem;
+}
+
+.vega-people-field input[type="text"] {
+	flex: 1;
+	min-width: 14rem;
+}
+
+.vega-lang-tag {
+	display: inline-block;
+	padding: 0 0.35rem;
+	border: 1px solid #c3c4c7;
+	border-radius: 2px;
+	font-size: 11px;
+	color: #50575e;
+}
+
+.vega-gallery__list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+	margin: 0 0 0.75rem;
+}
+
+.vega-gallery__list img,
+.vega-media__preview img {
+	display: block;
+	max-width: 120px;
+	max-height: 120px;
+	background: #2c2c2a;
+}
+
+.vega-media__preview img {
+	max-width: 240px;
+	max-height: 90px;
+	margin-bottom: 0.5rem;
+	padding: 8px;
+	border-radius: 2px;
+}
+
+.vega-settings__lead {
+	max-width: 52rem;
+	font-size: 14px;
+}
+
+.vega-settings__toc ul {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem 1.25rem;
+	margin: 1rem 0;
+}
+
+.vega-settings__section {
+	margin-top: 2rem;
+	padding: 0.5rem 1.5rem 0.5rem;
+	background: #fff;
+	border: 1px solid #dcdcde;
+	max-width: 60rem;
+}
+
+.vega-settings__section > p {
+	max-width: 46rem;
+}
+
+.vega-wide-input {
+	width: 100%;
+	max-width: 36rem;
+}
+
+.vega-starter {
+	max-width: 60rem;
+	margin: 1.5rem 0;
+	padding: 1rem 1.5rem 1.25rem;
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-left: 4px solid #e08a2d;
+}
+
+.vega-starter p {
+	max-width: 50rem;
+}
+
+.vega-warning {
+	padding: 0.5rem 0.75rem;
+	background: #fcf0e3;
+	border-left: 3px solid #8a4a0c;
+}

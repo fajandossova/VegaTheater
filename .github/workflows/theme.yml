@@ -1,0 +1,48 @@
+name: Тема Vega
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    name: Проверка PHP ${{ matrix.php }}
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        php: ['7.4', '8.3']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php }}
+          tools: none
+      - name: Синтаксис всех PHP-файлов
+        run: find vega -name '*.php' -print0 | xargs -0 -n1 php -l
+
+  build:
+    name: Архив vega.zip
+    needs: check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Собрать архив
+        run: sh tools/build-zip.sh
+      - uses: actions/upload-artifact@v4
+        with:
+          name: vega-theme
+          path: vega.zip
+      - name: Опубликовать в «Releases» (только для main)
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release delete theme-latest --yes --cleanup-tag || true
+          gh release create theme-latest vega.zip \
+            --title "Тема Vega — последняя версия" \
+            --notes "Скачайте vega.zip и загрузите его в WordPress: Внешний вид → Темы → Добавить → Загрузить тему."

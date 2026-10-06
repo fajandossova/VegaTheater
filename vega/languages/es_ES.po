@@ -1,0 +1,691 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Vega 1.0.0\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: 404.php:16
+msgid "This star has drifted away"
+msgstr "Esta estrella se ha alejado"
+
+#: 404.php:17
+msgid "The page was not found. It may have moved — try the menu or the links below."
+msgstr "No hemos encontrado la página. Puede que se haya movido: prueba con el menú o con los enlaces de abajo."
+
+#: 404.php:25 header.php:38
+msgid "Home page"
+msgstr "Inicio"
+
+#: 404.php:26 archive-vega_event.php:11
+msgid "What’s on"
+msgstr "Agenda"
+
+#: 404.php:27 archive-vega_group.php:14
+msgid "Kids studio"
+msgstr "Estudio infantil"
+
+#: archive-vega_event.php:18
+msgid "Archive"
+msgstr "Archivo"
+
+#: archive-vega_group.php:11 single-vega_person.php:65
+msgid "Groups"
+msgstr "Grupos"
+
+#: archive-vega_group.php:16
+msgid "For adults"
+msgstr "Adultos"
+
+#: archive-vega_group.php:21
+msgid "Timetable"
+msgstr "Horario"
+
+#: archive-vega_person.php:11
+msgid "People of the theatre"
+msgstr "Gente del teatro"
+
+#: archive-vega_person.php:16 single-vega_group.php:87
+msgid "Teachers"
+msgstr "Profesores"
+
+#: archive-vega_person.php:17
+msgid "Artists"
+msgstr "Artistas"
+
+#: archive-vega_person.php:18
+msgid "Guests"
+msgstr "Invitados"
+
+#: archive-vega_show.php:11
+msgid "Repertoire"
+msgstr "Repertorio"
+
+#: footer.php:24
+msgid "Theatre studio for children and adults in Torrevieja. Since 2019."
+msgstr "Estudio de teatro para niños y adultos en Torrevieja. Desde 2019."
+
+#: footer.php:29
+msgid "Contact"
+msgstr "Contacto"
+
+#: footer.php:36 inc/components.php:699
+msgid "Enrolment"
+msgstr "Inscripciones"
+
+#: footer.php:37 inc/components.php:700
+msgid "Artistic director"
+msgstr "Dirección"
+
+#: footer.php:47
+msgid "Theatre"
+msgstr "Teatro"
+
+#: footer.php:62
+msgid "Support the theatre"
+msgstr "Apoya al teatro"
+
+#: footer.php:63
+msgid "Donations go to costumes, sets and stage lighting. They are received by the cultural association Actorre."
+msgstr "Los donativos se destinan a vestuario, decorados e iluminación. Los recibe la asociación cultural Actorre."
+
+#: footer.php:66
+msgid "How to help"
+msgstr "Cómo ayudar"
+
+#: footer.php:75
+msgid "Privacy policy"
+msgstr "Política de privacidad"
+
+#: header.php:32
+msgid "Skip to content"
+msgstr "Saltar al contenido"
+
+#: header.php:41
+msgid "Main menu"
+msgstr "Menú principal"
+
+#: header.php:50
+msgid "Sign up"
+msgstr "Inscríbete"
+
+#: header.php:57 inc/setup.php:86
+msgid "Open menu"
+msgstr "Abrir menú"
+
+#: inc/blocks.php:244 single-vega_event.php:64
+msgid "Buy tickets"
+msgstr "Comprar entradas"
+
+#: inc/components.php:163
+msgid "Tickets"
+msgstr "Entradas"
+
+#: inc/components.php:165
+msgid "Details"
+msgstr "Más información"
+
+#: inc/components.php:214
+msgid "New dates are coming soon. Follow us on Instagram so you don’t miss them."
+msgstr "Pronto habrá nuevas fechas. Síguenos en Instagram para no perderte nada."
+
+#: inc/components.php:236 single-vega_event.php:100
+msgid "All events and tickets"
+msgstr "Toda la agenda y entradas"
+
+#: inc/components.php:253
+msgid "The archive is empty for now."
+msgstr "El archivo todavía está vacío."
+
+#: inc/components.php:266
+msgid "%s event"
+msgid_plural "%s events"
+msgstr[0] "%s evento"
+msgstr[1] "%s eventos"
+
+#: inc/components.php:331
+msgid "%s per month"
+msgstr "%s al mes"
+
+#: inc/components.php:346 inc/components.php:353
+msgid "Actorre members: %s"
+msgstr "Socios de Actorre: %s"
+
+#: inc/components.php:348
+msgid "Without membership: %s"
+msgstr "Sin ser socio: %s"
+
+#: inc/components.php:377 single-vega_group.php:29
+msgid "Now enrolling"
+msgstr "Inscripciones abiertas"
+
+#: inc/components.php:390
+msgid "from %s"
+msgstr "desde %s"
+
+#: inc/components.php:393
+msgid "More about the group"
+msgstr "Más sobre el grupo"
+
+#: inc/components.php:407
+msgid "Groups will appear here soon."
+msgstr "Pronto aparecerán aquí los grupos."
+
+#: inc/components.php:434
+msgid "The timetable will appear here soon."
+msgstr "Pronto aparecerá aquí el horario."
+
+#: inc/components.php:473 inc/components.php:480
+msgid "Actorre members"
+msgstr "Socios de Actorre"
+
+#: inc/components.php:474 inc/components.php:480
+msgid "Without membership"
+msgstr "Sin ser socio"
+
+#: inc/components.php:479
+msgid "Prices per month"
+msgstr "Precios al mes"
+
+#: inc/components.php:480
+msgid "Group"
+msgstr "Grupo"
+
+#: inc/components.php:481
+msgid "Prices are per month."
+msgstr "Precios mensuales."
+
+#: inc/components.php:536 inc/components.php:571
+msgid "This list will be filled in soon."
+msgstr "Pronto completaremos esta lista."
+
+#: inc/components.php:593
+msgid "Copy: %s"
+msgstr "Copiar: %s"
+
+#: inc/components.php:593
+msgid "Copy"
+msgstr "Copiar"
+
+#: inc/components.php:609
+msgid "Bank transfer"
+msgstr "Transferencia bancaria"
+
+#: inc/components.php:61
+msgid "Message us on WhatsApp"
+msgstr "Escríbenos por WhatsApp"
+
+#: inc/components.php:611
+msgid "Recipient"
+msgstr "Beneficiario"
+
+#: inc/components.php:618
+msgid "Payment reference"
+msgstr "Concepto"
+
+#: inc/components.php:627
+msgid "Donate by card"
+msgstr "Donar con tarjeta"
+
+#: inc/components.php:630
+msgid "Support us on Patreon"
+msgstr "Apóyanos en Patreon"
+
+#: inc/components.php:635
+msgid "Donations are received only by the cultural association Actorre, which runs Teatro Vega."
+msgstr "Los donativos los recibe únicamente la asociación cultural Actorre, de la que forma parte el Teatro Vega."
+
+#: inc/components.php:702
+msgid "Studio email"
+msgstr "Correo del estudio"
+
+#: inc/components.php:703
+msgid "Actorre association"
+msgstr "Asociación Actorre"
+
+#: inc/components.php:713
+msgid "Map: how to find us"
+msgstr "Mapa: cómo llegar"
+
+#: inc/components.php:714
+msgid "The map is loaded from Google Maps only after you click."
+msgstr "El mapa se carga desde Google Maps solo después de pulsar."
+
+#: inc/components.php:715
+msgid "Show map"
+msgstr "Mostrar mapa"
+
+#: inc/components.php:716
+msgid "Open in Google Maps"
+msgstr "Abrir en Google Maps"
+
+#: inc/helpers.php:121
+msgid "Book a free trial class"
+msgstr "Reserva una clase de prueba"
+
+#: inc/helpers.php:123
+msgid "Sign up: teens and adults"
+msgstr "Inscripción: adolescentes y adultos"
+
+#: inc/helpers.php:125
+msgid "Join Actorre (adults)"
+msgstr "Hazte socio de Actorre (adultos)"
+
+#: inc/helpers.php:127
+msgid "Join Actorre (parents of minors)"
+msgstr "Hazte socio de Actorre (padres de menores)"
+
+#: inc/helpers.php:129
+msgid "Register for the festival"
+msgstr "Inscripción al festival"
+
+#: inc/helpers.php:176
+msgid "Hello! I am writing from the Teatro Vega website."
+msgstr "¡Hola! Os escribo desde la web del Teatro Vega."
+
+#: inc/helpers.php:213 inc/i18n.php:369
+msgid "Shkhuna"
+msgstr "Shkhuna"
+
+#: inc/helpers.php:331
+msgid "(opens in a new tab)"
+msgstr "(se abre en una pestaña nueva)"
+
+#: inc/i18n.php:158
+msgctxt "month name in a date (genitive)"
+msgid "January"
+msgstr "enero"
+
+#: inc/i18n.php:159
+msgctxt "month name in a date (genitive)"
+msgid "February"
+msgstr "febrero"
+
+#: inc/i18n.php:160
+msgctxt "month name in a date (genitive)"
+msgid "March"
+msgstr "marzo"
+
+#: inc/i18n.php:161
+msgctxt "month name in a date (genitive)"
+msgid "April"
+msgstr "abril"
+
+#: inc/i18n.php:162
+msgctxt "month name in a date (genitive)"
+msgid "May"
+msgstr "mayo"
+
+#: inc/i18n.php:163
+msgctxt "month name in a date (genitive)"
+msgid "June"
+msgstr "junio"
+
+#: inc/i18n.php:164
+msgctxt "month name in a date (genitive)"
+msgid "July"
+msgstr "julio"
+
+#: inc/i18n.php:165
+msgctxt "month name in a date (genitive)"
+msgid "August"
+msgstr "agosto"
+
+#: inc/i18n.php:166
+msgctxt "month name in a date (genitive)"
+msgid "September"
+msgstr "septiembre"
+
+#: inc/i18n.php:167
+msgctxt "month name in a date (genitive)"
+msgid "October"
+msgstr "octubre"
+
+#: inc/i18n.php:168
+msgctxt "month name in a date (genitive)"
+msgid "November"
+msgstr "noviembre"
+
+#: inc/i18n.php:169
+msgctxt "month name in a date (genitive)"
+msgid "December"
+msgstr "diciembre"
+
+#: inc/i18n.php:173
+msgctxt "month name on its own"
+msgid "January"
+msgstr "enero"
+
+#: inc/i18n.php:174
+msgctxt "month name on its own"
+msgid "February"
+msgstr "febrero"
+
+#: inc/i18n.php:175
+msgctxt "month name on its own"
+msgid "March"
+msgstr "marzo"
+
+#: inc/i18n.php:176
+msgctxt "month name on its own"
+msgid "April"
+msgstr "abril"
+
+#: inc/i18n.php:177
+msgctxt "month name on its own"
+msgid "May"
+msgstr "mayo"
+
+#: inc/i18n.php:178
+msgctxt "month name on its own"
+msgid "June"
+msgstr "junio"
+
+#: inc/i18n.php:179
+msgctxt "month name on its own"
+msgid "July"
+msgstr "julio"
+
+#: inc/i18n.php:180
+msgctxt "month name on its own"
+msgid "August"
+msgstr "agosto"
+
+#: inc/i18n.php:181
+msgctxt "month name on its own"
+msgid "September"
+msgstr "septiembre"
+
+#: inc/i18n.php:182
+msgctxt "month name on its own"
+msgid "October"
+msgstr "octubre"
+
+#: inc/i18n.php:183
+msgctxt "month name on its own"
+msgid "November"
+msgstr "noviembre"
+
+#: inc/i18n.php:184
+msgctxt "month name on its own"
+msgid "December"
+msgstr "diciembre"
+
+#: inc/i18n.php:197
+msgctxt "short month"
+msgid "Jan"
+msgstr "ene"
+
+#: inc/i18n.php:198
+msgctxt "short month"
+msgid "Feb"
+msgstr "feb"
+
+#: inc/i18n.php:199
+msgctxt "short month"
+msgid "Mar"
+msgstr "mar"
+
+#: inc/i18n.php:200
+msgctxt "short month"
+msgid "Apr"
+msgstr "abr"
+
+#: inc/i18n.php:201
+msgctxt "short month"
+msgid "May"
+msgstr "may"
+
+#: inc/i18n.php:202
+msgctxt "short month"
+msgid "Jun"
+msgstr "jun"
+
+#: inc/i18n.php:203
+msgctxt "short month"
+msgid "Jul"
+msgstr "jul"
+
+#: inc/i18n.php:204
+msgctxt "short month"
+msgid "Aug"
+msgstr "ago"
+
+#: inc/i18n.php:205
+msgctxt "short month"
+msgid "Sep"
+msgstr "sep"
+
+#: inc/i18n.php:206
+msgctxt "short month"
+msgid "Oct"
+msgstr "oct"
+
+#: inc/i18n.php:207
+msgctxt "short month"
+msgid "Nov"
+msgstr "nov"
+
+#: inc/i18n.php:208
+msgctxt "short month"
+msgid "Dec"
+msgstr "dic"
+
+#: inc/i18n.php:224
+msgctxt "short weekday"
+msgid "Mon"
+msgstr "lun"
+
+#: inc/i18n.php:225
+msgctxt "short weekday"
+msgid "Tue"
+msgstr "mar"
+
+#: inc/i18n.php:226
+msgctxt "short weekday"
+msgid "Wed"
+msgstr "mié"
+
+#: inc/i18n.php:227
+msgctxt "short weekday"
+msgid "Thu"
+msgstr "jue"
+
+#: inc/i18n.php:228
+msgctxt "short weekday"
+msgid "Fri"
+msgstr "vie"
+
+#: inc/i18n.php:229
+msgctxt "short weekday"
+msgid "Sat"
+msgstr "sáb"
+
+#: inc/i18n.php:230
+msgctxt "short weekday"
+msgid "Sun"
+msgstr "dom"
+
+#: inc/i18n.php:234
+msgid "Monday"
+msgstr "Lunes"
+
+#: inc/i18n.php:235
+msgid "Tuesday"
+msgstr "Martes"
+
+#: inc/i18n.php:236
+msgid "Wednesday"
+msgstr "Miércoles"
+
+#: inc/i18n.php:237
+msgid "Thursday"
+msgstr "Jueves"
+
+#: inc/i18n.php:238
+msgid "Friday"
+msgstr "Viernes"
+
+#: inc/i18n.php:239
+msgid "Saturday"
+msgstr "Sábado"
+
+#: inc/i18n.php:240
+msgid "Sunday"
+msgstr "Domingo"
+
+#: inc/i18n.php:272
+msgctxt "date with year"
+msgid "%1$s %2$s %3$s"
+msgstr "%1$s de %2$s de %3$s"
+
+#: inc/i18n.php:275
+msgctxt "date without year"
+msgid "%1$s %2$s"
+msgstr "%1$s de %2$s"
+
+#: inc/i18n.php:297
+msgctxt "date range within one month"
+msgid "%1$s–%2$s %3$s %4$s"
+msgstr "%1$s–%2$s de %3$s de %4$s"
+
+#: inc/i18n.php:300
+msgctxt "date range within one month, no year"
+msgid "%1$s–%2$s %3$s"
+msgstr "%1$s–%2$s de %3$s"
+
+#: inc/i18n.php:331
+msgid "%1$s–%2$s year"
+msgid_plural "%1$s–%2$s years"
+msgstr[0] "%1$s–%2$s año"
+msgstr[1] "%1$s–%2$s años"
+
+#: inc/i18n.php:335
+msgid "from %s year"
+msgid_plural "from %s years"
+msgstr[0] "desde %s año"
+msgstr[1] "desde %s años"
+
+#: inc/i18n.php:339
+msgid "up to %s year"
+msgid_plural "up to %s years"
+msgstr[0] "hasta %s año"
+msgstr[1] "hasta %s años"
+
+#: inc/i18n.php:365 single-vega_show.php:30 single-vega_show.php:30
+msgid "Performance"
+msgstr "Espectáculo"
+
+#: inc/i18n.php:366
+msgid "Concert"
+msgstr "Concierto"
+
+#: inc/i18n.php:367
+msgid "Festival"
+msgstr "Festival"
+
+#: inc/i18n.php:368
+msgid "Workshop"
+msgstr "Taller"
+
+#: inc/i18n.php:378
+msgid "Teacher"
+msgstr "Profesor/a"
+
+#: inc/i18n.php:379
+msgid "Artist"
+msgstr "Artista"
+
+#: inc/i18n.php:380
+msgid "Guest"
+msgstr "Invitado/a"
+
+#: inc/i18n.php:80
+msgid "Language"
+msgstr "Idioma"
+
+#: inc/setup.php:84
+msgid "Copied"
+msgstr "Copiado"
+
+#: inc/setup.php:85
+msgid "Select the text and copy it manually"
+msgstr "Selecciona el texto y cópialo a mano"
+
+#: inc/setup.php:87
+msgid "Close menu"
+msgstr "Cerrar menú"
+
+#: index.php:14
+msgid "Search: %s"
+msgstr "Búsqueda: %s"
+
+#: index.php:20
+msgid "News"
+msgstr "Noticias"
+
+#: index.php:38
+msgid "Previous"
+msgstr "Anterior"
+
+#: index.php:39
+msgid "Next"
+msgstr "Siguiente"
+
+#: index.php:44
+msgid "Nothing found."
+msgstr "No se ha encontrado nada."
+
+#: single-vega_event.php:38
+msgid "This event has already taken place"
+msgstr "Este evento ya se ha celebrado"
+
+#: single-vega_event.php:42
+msgid "Date"
+msgstr "Fecha"
+
+#: single-vega_event.php:52
+msgid "Time"
+msgstr "Hora"
+
+#: single-vega_event.php:55
+msgid "Place"
+msgstr "Lugar"
+
+#: single-vega_event.php:58 single-vega_group.php:68
+msgid "Price"
+msgstr "Precio"
+
+#: single-vega_event.php:68
+msgid "Ask on WhatsApp"
+msgstr "Pregunta por WhatsApp"
+
+#: single-vega_event.php:91
+msgid "More events"
+msgstr "Más eventos"
+
+#: single-vega_group.php:100
+msgid "Other groups"
+msgstr "Otros grupos"
+
+#: single-vega_group.php:53
+msgid "Classes"
+msgstr "Clases"
+
+#: single-vega_group.php:78
+msgid "The first trial class is free."
+msgstr "La primera clase de prueba es gratis."
+
+#: single-vega_person.php:83
+msgid "Performances"
+msgstr "Espectáculos"
+
+#: single-vega_show.php:43
+msgid "Photos"
+msgstr "Fotos"
+
+#: single-vega_show.php:59
+msgid "Cast"
+msgstr "Reparto"
